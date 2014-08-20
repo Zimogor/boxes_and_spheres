@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{eeed3b02-0067-4fcb-87df-0e65ad5c0267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{9ffe7b14-c067-41c7-be1d-045b6cf7bbcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auxiliary">
+      <UniqueIdentifier>{8e301ea6-510e-48fd-8622-bd5077d029ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{ac408c1b-6749-4d0a-bd4d-59187cf5ec15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{b176f775-0e1c-498a-88f7-aeca626540ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{867d892b-1064-4eb4-ab9f-ce09c0bb7321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{bfcf5958-6ab7-437c-8671-5530ff8c46cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{2dbda46c-09ac-43e2-b21f-19a87fecce05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{801edbbf-533d-4b81-a700-81c74dca754e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{b4553482-dcbd-4059-9533-187e743e0e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{873360b0-fe86-426d-a3ca-b15104270c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hero">
+      <UniqueIdentifier>{a2432b29-2f2f-4a34-9e8b-4c853ada45b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArtInt">
+      <UniqueIdentifier>{8a4e0519-ca23-4952-891b-c1ca6881f4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{bfdc61bc-b956-40cc-9b7f-405e18b26228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{6be46a59-db95-4d73-89c1-b71f0d9a1175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\stuff">
+      <UniqueIdentifier>{c054622d-505a-42e3-9421-9f629eca9521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\SuperFunctions">
+      <UniqueIdentifier>{84b8e5f5-7555-4845-b7a6-3bf86ce3f49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Models">
+      <UniqueIdentifier>{8e0dae5c-516f-4af1-acc5-fbf6acf492de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Vectors">
+      <UniqueIdentifier>{cf5775fc-7759-44d5-812a-52b48d630166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{a633cbb8-fa2b-406b-bbbe-fbff1cf70683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8a1712fd-bc2c-4207-b3f4-8281be41a23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD">
+      <UniqueIdentifier>{9cb67fe0-b407-4ef4-a2aa-0b6c18476835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Sprites">
+      <UniqueIdentifier>{74eca9b4-d01f-4068-9033-3f850dd1ed28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperFunctions.h">
+      <Filter>ThirdParty\SuperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorAnimModel.h">
+      <Filter>ArtInt</Filter>
+    </ClInclude>
+    <ClInclude Include="PerModel.h">
+      <Filter>ArtInt</Filter>
+    </ClInclude>
+    <ClInclude Include="ArtInt.h">
+      <Filter>ArtInt</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameMenu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Nums.h">
+      <Filter>Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimModel.h">
+      <Filter>Objects\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Objects\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainVectorModel.h">
+      <Filter>Objects\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleVectorModel.h">
+      <Filter>Objects\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="SubModels.h">
+      <Filter>ArtInt</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Objects\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Errors.cpp">
+      <Filter>Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Sentence.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperFunction.cpp">
+      <Filter>ThirdParty\SuperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorAnimModel.cpp">
+      <Filter>ArtInt</Filter>
+    </ClCompile>
+    <ClCompile Include="PerModel.cpp">
+      <Filter>ArtInt</Filter>
+    </ClCompile>
+    <ClCompile Include="ArtInt.cpp">
+      <Filter>ArtInt</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicReg.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="FontDescriptors.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameMenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Recipes.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third party\accidentalnoise\src\noise_lut.cpp">
+      <Filter>ThirdParty\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third party\accidentalnoise\src\implicitbasisfunction.cpp">
+      <Filter>ThirdParty\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third party\accidentalnoise\src\implicitscaledomain.cpp">
+      <Filter>ThirdParty\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third party\accidentalnoise\src\implicitscaleoffset.cpp">
+      <Filter>ThirdParty\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third party\accidentalnoise\src\noise_gen.cpp">
+      <Filter>ThirdParty\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimModel.cpp">
+      <Filter>Objects\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Objects\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainVectorModel.cpp">
+      <Filter>Objects\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleVectorModel.cpp">
+      <Filter>Objects\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="SubModels.cpp">
+      <Filter>ArtInt</Filter>
+    </ClCompile>
+    <ClCompile Include="Nums.cpp">
+      <Filter>Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainGeneration.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Objects\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="resources\sh11.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon16.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="icon24.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="icon32.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZimaProject.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kursor_24.cur">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Kursor_16.cur">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Cursor32(16).cur">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+client resolution  1920 1028
+lf: 0.0409 u:0.0376 d:0.0015 p:0.0016
+patch number  63 63
+patch corner  -24 -8
+patch number  63 64
+patch corner  -24 0
+patch number  64 63
+patch corner  0 -24
+patch number  64 64
+patch corner  0 0
+lf: 0.077 u:0.0723 d:0.004 p:0.0006
